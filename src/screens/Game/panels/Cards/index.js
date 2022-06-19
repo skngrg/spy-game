@@ -5,7 +5,7 @@ import { useRecoilState } from 'recoil';
 import { gameStore } from '../../store';
 
 const Cards = ({ onBack, onLastCard, onOpenChangePlayerNameModal }) => {
-    const [game, pass] = useRecoilState(gameStore);
+    const [game, _] = useRecoilState(gameStore);
 
     const [currentCardIndex, setCurrentCardIndex] = useState(0);
 

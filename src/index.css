@@ -1,0 +1,9 @@
+.center-column-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.center-text {
+    text-align: center;
+}
